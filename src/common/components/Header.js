@@ -1,5 +1,6 @@
 import { Box, Grid, Hidden, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import headerImg from '../utils/img/undraw_everyday_design_gy.svg';
 
 const useStyles = makeStyles((theme) => ({
@@ -79,6 +80,7 @@ const Header = () => {
     <>
       <Grid container direction="row" justify="center" spacing={5}>
         <Grid item sm={4} xs={8}>
+      <Fade left duration={1500} distance="45px">
           <Grid container direction="column" justify="space-around">
             <Grid item>
               <Typography variant="h5" className={classes._header_left_first}>
@@ -101,13 +103,16 @@ const Header = () => {
               </Typography>
             </Grid>
           </Grid>
+        </Fade>
         </Grid>
         <Hidden only={['xs']}>
           <Grid item sm={4}>
+          <Fade right duration={1500} distance="45px">
             <Box className={classes._header_right_first}>
               <img className={classes._header_right_second} src={headerImg} alt="image" />
               {/* <Box className={classes._header_right_second} /> */}
             </Box>
+          </Fade>
           </Grid>
         </Hidden>
 

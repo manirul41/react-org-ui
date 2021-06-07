@@ -1,5 +1,6 @@
 import { Box, Grid, Hidden, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import serviceImg from '../utils/img/undraw_Goals_re_lu76.svg';
 
 const useStyles = makeStyles((theme) => ({
@@ -86,6 +87,7 @@ const Services = () => {
     <>
       <Grid container direction="row" justify="center" alignItems="center" spacing={5}>
         <Grid item sm={4} xs={8}>
+        <Fade right duration={1500} distance="45px">
           <Grid container direction="column" justify="center" alignItems="flex-start">
             <Grid item>
               <Typography className={classes._header_left_first}>
@@ -105,13 +107,16 @@ const Services = () => {
               </Typography>
             </Grid>
           </Grid>
+          </Fade>
         </Grid>
         <Hidden only={['xs']}>
           <Grid item sm={4}>
+          <Fade left duration={1500} distance="45px">
             <Box className={classes._header_right_first}>
               <img className={classes._header_right_second} src={serviceImg} alt="image" />
               {/* <Box className={classes._header_right_second} /> */}
             </Box>
+            </Fade>
           </Grid>
         </Hidden>
 

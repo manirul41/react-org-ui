@@ -1,5 +1,6 @@
 import { Box, Grid, Hidden, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import aboutImg from '../utils/img/undraw_team_spirit_hrr4.svg';
 
 const useStyles = makeStyles((theme) => ({
@@ -80,6 +81,7 @@ const About = () => {
     <>
       <Grid container direction="row-reverse" justify="center" alignItems="center" spacing={5}>
         <Grid item sm={4} xs={8}>
+        <Fade right duration={1500} distance="45px">
           <Grid container direction="column" justify="center" alignItems="flex-start">
             <Grid item>
               <Typography variant="h5" className={classes._header_left_first}>
@@ -110,13 +112,16 @@ const About = () => {
               </Typography>
             </Grid>
           </Grid>
+          </Fade>
         </Grid>
         <Hidden only={['xs']}>
           <Grid item sm={4}>
+          <Fade bottom duration={1500} distance="45px">
             <Box className={classes._header_right_first}>
               <img className={classes._header_right_second} src={aboutImg} alt="image" />
               {/* <Box className={classes._header_right_second} /> */}
             </Box>
+            </Fade>
           </Grid>
         </Hidden>
 

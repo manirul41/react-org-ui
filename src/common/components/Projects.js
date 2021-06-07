@@ -1,5 +1,6 @@
 import { Box, Grid, makeStyles, useMediaQuery, useTheme } from '@material-ui/core';
 import React from 'react';
+import Jump from 'react-reveal/Jump';
 
 const useStyles = makeStyles((theme) => ({
   projects: {
@@ -79,9 +80,11 @@ const Projects = () => {
                 <Box component="span" className={classes.counter_title}>
                   Team People
                 </Box>
+                <Jump>
                 <Box component="span" className={classes.counter_number}>
                   52
                 </Box>
+                </Jump>
               </Grid>
             </Grid>
             <Grid item xs={12} sm={12} md={3}>
@@ -89,9 +92,11 @@ const Projects = () => {
                 <Box component="span" className={classes.counter_title}>
                   Clients
                 </Box>
+                <Jump>
                 <Box component="span" className={classes.counter_number}>
                   20
                 </Box>
+                </Jump>
               </Grid>
             </Grid>
             <Grid item xs={12} sm={12} md={3}>
@@ -99,9 +104,11 @@ const Projects = () => {
                 <Box component="span" className={classes.counter_title}>
                   Projects
                 </Box>
+                <Jump>
                 <Box component="span" className={classes.counter_number}>
                   140
                 </Box>
+                </Jump>
               </Grid>
             </Grid>
             <Grid item xs={12} sm={12} md={3}>
@@ -109,9 +116,11 @@ const Projects = () => {
                 <Box component="span" className={classes.counter_title}>
                   Reviews
                 </Box>
+                <Jump>
                 <Box component="span" className={classes.counter_number}>
                   95%
                 </Box>
+                </Jump>
               </Grid>
             </Grid>
           </Grid>
