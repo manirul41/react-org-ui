@@ -1,4 +1,4 @@
-import { Grid, makeStyles, Typography, useMediaQuery, useTheme } from '@material-ui/core';
+import { Grid, makeStyles, Typography } from '@material-ui/core';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -99,8 +99,8 @@ const useStyles = makeStyles((theme) => ({
 const Footer = () => {
 
   const classes = useStyles();
-  const theme = useTheme();
-  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
+  // const theme = useTheme();
+  // const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <>

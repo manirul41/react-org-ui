@@ -113,7 +113,7 @@ const Services = () => {
           <Grid item sm={4}>
           <Fade left duration={1500} distance="45px">
             <Box className={classes._header_right_first}>
-              <img className={classes._header_right_second} src={serviceImg} alt="image" />
+              <img className={classes._header_right_second} src={serviceImg} alt="sercies" />
               {/* <Box className={classes._header_right_second} /> */}
             </Box>
             </Fade>

@@ -1,4 +1,4 @@
-import { Box, Grid, makeStyles, useMediaQuery, useTheme } from '@material-ui/core';
+import { Box, Grid, makeStyles } from '@material-ui/core';
 import React from 'react';
 import Slider from './Slider';
 
@@ -46,8 +46,8 @@ const useStyles = makeStyles((theme) => ({
 const Reviews = () => {
 
   const classes = useStyles();
-  const theme = useTheme();
-  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
+  // const theme = useTheme();
+  // const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <>

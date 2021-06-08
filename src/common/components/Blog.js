@@ -1,4 +1,4 @@
-import { Box, Grid, makeStyles, Typography, useMediaQuery, useTheme } from '@material-ui/core';
+import { Box, Grid, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
 
 const useStyles = makeStyles((theme) => ({
@@ -79,8 +79,8 @@ const useStyles = makeStyles((theme) => ({
 const Blog = () => {
 
   const classes = useStyles();
-  const theme = useTheme();
-  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
+  // const theme = useTheme();
+  // const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <>

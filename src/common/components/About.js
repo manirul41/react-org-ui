@@ -118,7 +118,7 @@ const About = () => {
           <Grid item sm={4}>
           <Fade bottom duration={1500} distance="45px">
             <Box className={classes._header_right_first}>
-              <img className={classes._header_right_second} src={aboutImg} alt="image" />
+              <img className={classes._header_right_second} src={aboutImg} alt="header" />
               {/* <Box className={classes._header_right_second} /> */}
             </Box>
             </Fade>
