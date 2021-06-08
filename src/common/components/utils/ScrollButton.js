@@ -6,7 +6,8 @@ import React, { useState } from 'react';
 
 const useStyles = makeStyles((theme) => ({
     scrollbtn: {
-        position: 'sticky', 
+        position: 'sticky',
+        margin: '-100px 0px',
         bottom: '40px',
         fontSize: '3rem',
         zIndex: '1',
