@@ -106,13 +106,56 @@ const Header = () => {
             <Grid item>Logo</Grid>
             <Grid item>
               <Grid container direction="row" justify="space-between" spacing={3} className={classes.nav_cat}>
-                <Grid item><NavLink to="#">Home</NavLink></Grid>
-                {/* <Grid item><span onClick={() => document.getElementById("contact_id").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>Project2</span></Grid> */}
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("home").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">Home</NavLink>
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("about").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">About</NavLink>
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("services").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">Services</NavLink>
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("reviews").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">Reviews</NavLink>
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("projects").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">Project</NavLink>
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("blog").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">Blog</NavLink>
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span 
+                  onClick={() => document.getElementById("contact").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>
+                    <NavLink to="#">Contact</NavLink>
+                  </span>
+                </Grid>
+
+                {/* <Grid item><NavLink to="#">Home</NavLink></Grid>
+                <Grid item><span onClick={() => document.getElementById("contact_id").scrollIntoView({ block: 'center',  behavior: 'smooth' })}>Project2</span></Grid>
                 <Grid item><NavLink to="#">Project</NavLink></Grid>
                 <Grid item><NavLink to="#">Services</NavLink></Grid>
                 <Grid item><NavLink to="#">Blog</NavLink></Grid>
                 <Grid item><NavLink to="#">Contact</NavLink></Grid>
-                <Grid item><NavLink to="#">Sign Up</NavLink></Grid>
+                <Grid item><NavLink to="#">Sign Up</NavLink></Grid> */}
               </Grid>
             </Grid>
           </Grid>
