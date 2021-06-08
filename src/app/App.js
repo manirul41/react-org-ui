@@ -10,6 +10,7 @@ import Projects from '../common/components/Projects';
 import Reviews from '../common/components/Reviews';
 import Services from '../common/components/Services';
 import Subscribe from '../common/components/Subscribe';
+import ScrollButton from '../common/components/utils/ScrollButton';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -51,25 +52,25 @@ function App() {
           <Nav />
         </Box>
         <br />
-        <Box component="section" className={classes.root}>
+        <Box component="section" id="home" className={classes.root}>
           <Header />
         </Box>
-        <Box component="section" className={classes.root}>
+        <Box component="section" id="about" className={classes.root}>
           <About />
         </Box>
-        <Box component="section" className={classes.root}>
+        <Box component="section" id="services" className={classes.root}>
           <Services />
         </Box>
-        <Box component="section" className={classes.project}>
+        <Box component="section" id="projects" className={classes.project}>
           <Projects />
         </Box>
-        <Box component="section" id="contact_id" className={classes.reviews}>
+        <Box component="section" id="reviews" className={classes.reviews}>
           <Reviews />
         </Box>
-        <Box component="section" className={classes.blog}>
+        <Box component="section" id="blog" className={classes.blog}>
           <Blog />
         </Box>
-        <Box component="section" className={classes.subscribe}>
+        <Box component="section" id="contact" className={classes.subscribe}>
           <Subscribe />
         </Box>
         <Box component="section" className={classes.footer}>
@@ -78,6 +79,7 @@ function App() {
         <Box component="section" className={classes.copyright}>
           <FooterCopyRight />
         </Box>
+        <ScrollButton />
         {/* <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} /> */}
       </Container>
     </>
