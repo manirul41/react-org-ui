@@ -111,7 +111,7 @@ const Slider = () => {
                 <Grid container direction="row" justify="flex-start" alignItems="center" spacing={0.5} wrap="nowrap">
                   <Grid item >
                     <ButtonBase className={classes.image}>
-                      <img className={classes.img} alt="complex" src={`https://i.picsum.photos/id/538/200/200.jpg?hmac=oJRLJPsN8ZdWjPpKGEU-oqAZMBKa4JsTnuUSqgRbyP4`} />
+                      <img className={classes.img} alt="complex" src={`https://fastly.picsum.photos/id/538/200/200.jpg?hmac=oJRLJPsN8ZdWjPpKGEU-oqAZMBKa4JsTnuUSqgRbyP4`} />
                     </ButtonBase>
                   </Grid>
                   <Grid item container direction="row" justify="space-between" alignItems="flex-start">

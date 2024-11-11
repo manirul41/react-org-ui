@@ -103,7 +103,7 @@ const Header = () => {
 
         <Hidden only={['xs']}>
           <Grid container direction="row" justify="space-around" className={classes.nav_root}>
-            <Grid item>Logo</Grid>
+            <Grid item>ABC Co. ltd</Grid>
             <Grid item>
               <Grid container direction="row" justify="space-between" spacing={3} className={classes.nav_cat}>
                 <Grid item>
@@ -163,7 +163,7 @@ const Header = () => {
 
         <Hidden only={['sm', 'xl', 'md', 'lg']}>
           <Grid container direction="row" justify="flex-start" alignItems="baseline" className={classes.nav_root}>
-            <Grid item xs={10}>Logo</Grid>
+            <Grid item xs={10}>ABC Co. ltd</Grid>
             <Grid item xs={2}>
               <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                 <MenuIcon onClick={() => (setState(!state))} />

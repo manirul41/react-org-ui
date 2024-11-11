@@ -15,7 +15,7 @@ const FooterCopyRight = () => {
     <>
       <Grid container direction="row" justify="center" alignItems="center" className={classes.footerCopyRight}>
         <Grid item container direction="row" xs={10} md={12} justify="center" alignItems="center">
-          <Typography>Copyright @ 2021 <span>Brandoxide</span>.all right reserved.</Typography>
+          <Typography>Copyright @ 2021 <span>ABC Co. ltd</span>.all right reserved.</Typography>
         </Grid>
       </Grid>
     </>

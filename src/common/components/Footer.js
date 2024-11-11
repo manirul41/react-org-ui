@@ -108,7 +108,7 @@ const Footer = () => {
         <Grid item xs={10} md={4} container direction="column" justify="center" alignItems="center">
           <Grid md={6} container direction="column" justify="flex-end" alignItems="flex-start">
             <Grid item md={12}>
-              <Typography>Logo</Typography>
+              <Typography>ABC Co. ltd</Typography>
             </Grid>
             <Grid item md={12}>
               <Typography variant="subtitle2" color="textSecondary">
@@ -138,7 +138,7 @@ const Footer = () => {
           <Typography variant="body1">Contact us</Typography>
           <Typography variant="subtitle2" color="textSecondary">Sagrada Famillia,Herba</Typography>
           <Typography variant="subtitle2" color="textSecondary">Steet Front USA</Typography>
-          <Typography variant="subtitle2" color="textSecondary">brandoxide@gmail.com</Typography>
+          <Typography variant="subtitle2" color="textSecondary">info@abc.co</Typography>
           <Typography variant="subtitle2" color="textSecondary">002-598562541</Typography>
         </Grid>
         <Grid item xs={10} md={2}>
