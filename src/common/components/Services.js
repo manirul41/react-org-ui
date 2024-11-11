@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     lineHeight: '9vmax',
     color: 'transparent',
     textTransform: 'uppercase',
-    backgroundImage: `url('https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ')`,
+    backgroundImage: `url('https://fastly.picsum.photos/id/218/300/300.jpg?hmac=qlFfwf1SpnYzohxO_7LnDcCOJCeXCXre2Nh0p9QO-68')`,
     backgroundSize: '100% 100%',
     WebkitBackgroundClip: 'text',
     backgroundClip: 'text',

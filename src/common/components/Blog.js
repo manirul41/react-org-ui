@@ -120,7 +120,7 @@ const Blog = () => {
                 <Grid item>
                   <Box alignSelf="center" pt={1}>
                     <Box component="span" className={classes.image} />
-                    <img width={280} className={classes.img} alt="complex" src={`https://i.picsum.photos/id/538/200/200.jpg?hmac=oJRLJPsN8ZdWjPpKGEU-oqAZMBKa4JsTnuUSqgRbyP4`} />
+                    <img width={280} className={classes.img} alt="complex" src={`https://fastly.picsum.photos/id/946/300/300.jpg?hmac=Tfynt1R-QgkiDDO4MonY6IDwemU9rQ3IITkWfPJtO50`} />
                   </Box>
                 </Grid>
                 <Grid item>
